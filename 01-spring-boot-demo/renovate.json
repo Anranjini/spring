@@ -4,10 +4,13 @@
   "platform": "github",
   "repositories": [
     {
-      "repository": "https://github.com/Anranjini/ruv.git",
+      "repository": "https://github.com/Anranjini/spring.git",
       "packageFiles": ["pom.xml"],
-      "versioning": "github-releases",
-      "enabled": true
+      "depName": "org.springframework.boot:spring-boot-starter-web",
+      "versioning": "maven",
+      "rangeStrategy": "widen",
+      "range": "1.0.0",
+      "enabledManagers": ["maven"]
     }
   ]
 }
