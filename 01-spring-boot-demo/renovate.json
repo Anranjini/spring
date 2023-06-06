@@ -4,7 +4,7 @@
   "platform": "github",
   "repositories": [
     {
-      "repository": "https://github.com/Anranjini/repo.git",
+      "repository": "https://github.com/Anranjini/ruv.git",
       "packageFiles": ["pom.xml"],
       "versioning": "github-releases",
       "enabled": true
